@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #962ae6;
+  position: relative;
+}
+
+.head {
+  display: flex;
+  flex-basis: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #200e3d;
+  width: 100vw;
+  height: 15vh;
+  justify-content: center;
+  position: fixed;
+}
+.about,
+.projects,
+.contact {
+  text-align: right;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  justify-self: center;
+  align-self: center;
+  margin-right: 10px;
+  font-family: Work Sans;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #52c5ff;
+}
